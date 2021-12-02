@@ -30,5 +30,12 @@ class DayOneTest {
     public void testPartTwo() {
         int result = dayOne.partTwo();
         assertEquals(1344, result);
+        assertEquals(1344, result);
+    }
+
+    @Test
+    public void testPartTwoTwo() {
+        int result = dayOne.partTwoTwo();
+        assertEquals(1344, result);
     }
 }
